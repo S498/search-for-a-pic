@@ -18,9 +18,6 @@ class App extends Component{
       params: {query: msg},
     });
   
-    // .then((response)=>{console.log(response)});
-  
-    // console.log(response);
     this.setState({imageList: response.data.results});
   }
 

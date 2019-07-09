@@ -9,15 +9,6 @@ class SearchBar extends Component{
         }
     }
 
-    // onInputChange=(e)=>{
-    //     // console.log(e.target.value);
-    //     this.setState({
-    //         term: e.target.value
-    //     })
-
-    //     console.log(this.state.term);
-    // }
-
     onFromSubmitted=(e)=>{
         e.preventDefault();
 

@@ -17,8 +17,6 @@ class ImageCard extends Component{
     }
 
     componentDidMount(){
-        // console.log(this.imageRef);
-        // console.log(this.imageRef.current.clientHeight);
         this.imageRef.current.addEventListener('load',this.correctRowHeights);
     }
 

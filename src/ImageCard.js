@@ -9,6 +9,7 @@ class ImageCard extends Component{
     }
 
     correctRowHeights=()=>{
+        if(this.imageRef.current.clientHeight!==null)
         console.log(this.imageRef.current.clientHeight);
 
         const height = this.imageRef.current.clientHeight;
